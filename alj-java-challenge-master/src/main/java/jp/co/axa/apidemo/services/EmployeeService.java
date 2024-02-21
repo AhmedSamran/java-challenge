@@ -6,13 +6,13 @@ import java.util.List;
 
 public interface EmployeeService {
 
-    public List<Employee> retrieveEmployees();
+    List<Employee> retrieveEmployees();
 
-    public Employee getEmployee(Long employeeId);
+    Employee getEmployee(Long employeeId);
 
-    public void saveEmployee(Employee employee);
+    void saveEmployee(Employee employee);
 
-    public boolean deleteEmployee(Long employeeId);
+    boolean deleteEmployee(Long employeeId);
 
-    public void updateEmployee(Employee employee);
+    void updateEmployee(Employee employee);
 }
